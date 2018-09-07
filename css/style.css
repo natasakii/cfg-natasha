@@ -1,6 +1,8 @@
 body {
   font-size: 16px;
-  font-family: "courier new"
+  font-family: "courier new";
+  background-color: #c8b2d2
+
 }
 .copyright {
   text-align:center;
@@ -77,4 +79,8 @@ font-size: 23px;
 #hello .dropdown a{
   color: black;
   font-size: 16px;
+}
+
+.blackfont{
+  color:black;
 }
