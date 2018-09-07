@@ -3,20 +3,44 @@
 <head>
   <title>Nadesme's Jewels</title>
   <link href='css/bootstrap/bootstrap.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='css/style.css' rel='stylesheet'>
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/bootstrap.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
   <div id="hello" class="row">
     <div class="col-sm-3">
       <div id='social-buttons'>
-        <button class='btn-twitter'>Twitter</button>
-        <button class='btn-facebook'>Facebook</button>
-        <button class='btn-instagram'>Instargram</button>
+        <a href="http://twitter.com">
+          <i class="fa fa-twitter-square"></i>
+        </a>
+        <a href="http://facebook.com">
+          <i class="fa fa-facebook-square"></i>
+        </a>
+        <a href="http://instagram.com">
+           <i class="fa fa-instagram"></i>
+         </a>
       </div>
     </div>
     <div class="col-sm-1">
-      <p> Language</p>
+      <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Language
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">English</a>
+      <a class="dropdown-item" href="#">French</a>
+      <a class="dropdown-item" href="#">German</a>
+      <a class="dropdown-item" href="#">Greek</a>
+      <a class="dropdown-item" href="#">Italian</a>
+      <a class="dropdown-item" href="#">Russian</a>
+      <a class="dropdown-item" href="#">Spanish</a>
+      <a class="dropdown-item" href="#">Swedish</a>
+    </div>
+  </div>
     </div>
     <div class="col-sm-4">
       <center><p>FREE European Shipping on Orders Over 70€</p></center>
@@ -48,28 +72,58 @@
 </div>
 </div>
 </center>
-<div class="row">
-  <div class="col-sm-7">
+<div class="row main-content">
+  <div id="arrivals" class="col-sm-7">
     <p>NEW ARRIVALS</p>
     <p>Collection AW 2018 </p>
-    <div id=' shopbuttons'>
-      <button class='btn-shop'>SHOP NOW</button>
+    <div class='shopbuttons'>
+      <button type="button" class="btn btn-dark">SHOP NEW</button>
+
     </div>
   </div>
+
   <div class="col-sm-5">
+    <div id="bestsellers">
+      <p>DON'T MISS THE CHANCE!</p>
       <p> SHOP Our Best Sellers</p>
-      <div id=' shopbuttons'>
-        <button class='btn-shop'>SHOP NOW</button>
+      <div class='shopbuttons'>
+
+        <button type="button" class="btn btn-dark">SHOP NOW</button>
+
       </div>
-      <center>
+    </div>
+    <div id="sales">
       <p>SALES!!!</p>
-</center>
       <p>Save Up To 15% Off All Orders</p>
       <div id='CODEbuttons'>
-        <button class='CODE'>Code:NADESME15</button>
+        <button type="button" class="btn btn-dark">CODE: NADESME15</button>
       </div>
-
+</div>
   </div>
+</div>
+<div class='container'>
+  <div class="row">
+    <div class="col-sm-4">
+  <video width="320" height="240" controls>
+  <source src="VIDEO/NADESMESJEWELSTrim.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div class="col-sm-4">
+  <video width="320" height="240" controls>
+  <source src="VIDEO/customers.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+<div class="col-sm-4">
+  <video width="320" height="240" controls>
+  <source src="VIDEO/CLIENTS.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+
+</div>
 </div>
 
 <footer>
@@ -78,7 +132,7 @@
     <div class="row">
 
       <div class="col-sm-3">
-        <h4> ABOUT</h4>
+        <h3> ABOUT</h3>
         <ul>
           <li><a href="/pages/help">HELP</a></li>
           <li><a href="/pages/contact">CONTACT</a></li>
@@ -86,7 +140,7 @@
       </div>
 
       <div class="col-sm-3">
-        <h4> SHOP INFO</h4>
+        <h3> SHOP INFO</h3>
         <ul>
           <li><a href="/pages/order-status">ORDER STATUS</a></li>
           <li><a href="/pages/shipping">SHIPPING</a></li>

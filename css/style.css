@@ -1,6 +1,7 @@
-
-
-
+body {
+  font-size: 16px;
+  font-family: "courier new"
+}
 .copyright {
   text-align:center;
 }
@@ -13,4 +14,67 @@ ul {
   text-align: center;
   font-size: 20px;
   font-family: arial;
+}
+footer, #hello {
+  background: black;
+  color: white;
+  font-family: "courier new";
+
+}
+footer ul{
+  font-family: "courier new";
+}
+
+footer a{
+  color: white;
+
+}
+#hello a{
+color: white;
+font-size: 24px;
+padding-left:30px;
+}
+#arrivals{
+  background-repeat:no-repeat;
+  background-image: url("../images/dr.jpg");
+padding-top: 100px;
+padding-bottom: 100px;
+padding-left: 30pX;
+background-size: cover;
+font-weight: bold;
+font-size: 23px;
+}
+#bestsellers{
+  background-image: url("../images/mo.jpg");
+  padding: 25px;
+  font-weight: bold;
+
+
+}
+#sales{
+  background-image: url("../images/nek.jpg");
+  padding: 25px;
+  font-weight: bold;
+  margin-top: 22px;
+
+
+}
+.main-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.NAD {
+  font-size: 40px;
+  font-weight:500;
+  padding-top: 20px;
+  font-family: "courier new";
+  font-height: 50px;
+}
+.container{
+  font-size: 20px;
+  font-weight: 300;
+}
+#hello .dropdown a{
+  color: black;
+  font-size: 16px;
 }
